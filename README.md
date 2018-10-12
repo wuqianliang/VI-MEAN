@@ -22,7 +22,7 @@ Topic of estimated path: /self_calibration_estimator/path
 
 Note: Unfortunately, the model is too dense to be recorded real-time using our onboard computers. ROS randomly throw data with limited IO, resulting very low frequency of the messages in the bags.
 
-We emphasize the map received by controller is updated at 10Hz. The frequency of map generation really matters a lot for autonomous systems.
+`We emphasize the map received by controller is updated at 10Hz. The frequency of map generation really matters a lot for autonomous systems.`
 
 ## How to compile
 1. Choose correct `CUDA_NVCC_FLAGS` in `stereo_mapper/CMakeLists.txt`
